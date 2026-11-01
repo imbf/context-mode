@@ -605,8 +605,8 @@ Full documentation: [`docs/adapters/openclaw.md`](docs/adapters/openclaw.md)
    > **Feature flag note:** Current Codex builds expose hooks under `[features].hooks`
    > (or `codex --enable hooks`). Prefer `[features].hooks`; `[features].codex_hooks`
    > remains accepted as a legacy alias in current Codex builds. The separate
-   > `plugin_hooks` flag has been removed in current Codex builds and no longer needs
-   > to be configured. To activate bundled plugin hooks, enable the plugin and review
+   > `plugin_hooks` flag was [removed in Codex 0.134.0](https://github.com/openai/codex/releases/tag/rust-v0.134.0)
+   > and no longer needs to be configured. To activate bundled plugin hooks, enable the plugin and review
    > and trust its hooks at Codex CLI startup or through `/hooks`.
 
    **Custom storage location:** if Codex cannot write the adapter default storage directory, set
